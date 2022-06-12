@@ -1,0 +1,21 @@
+"age"	"name"	"address"	"sex"	"id"
+"20"	"jack"	"beijing"	"男"	
+"21"	"mary"	"xian"	"女"	"2"
+"19"	"hon"	"paris"	"男"	"3"
+"17"	"haha"	"xian"	"女"	"4"
+"20"	"lucy"	"paris"	"男"	"5"
+"22"	"joke"	"shanghai"	"女"	"6"
+"20"	"jink"	"paris"	"男"	"7"
+"20"	"robt"	"london"	"男"	"12"
+
+
+创建：
+create table test.student
+(
+    age     int         null comment '年龄',
+    name    varchar(10) null comment '名字',
+    address varchar(10) null comment '地址',
+    sex     char        null comment '性别',
+    id      int         null comment '学号'
+)
+    comment '学生信息表';
